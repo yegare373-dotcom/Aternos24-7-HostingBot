@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "rohangod_bot",
   "bot-account": {
-    "username": "imgonnacream",
-    "password": "",
-    "type": "offline"
+    "username": "rohangod_bot",
+    "password": "rohangodbot",
+    "type": "online"
   },
   "server": {
-    "ip": "7L_SMP_is_real.aternos.me",
-    "port": 62213,
+    "ip": "Rohangod.aternos.me",
+    "port": 58691,
     "version": "",
     "try-creative": false
   },
@@ -45,7 +45,7 @@
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
+      "radius": 4000,
       "speed": 3000
     },
     "look-around": {
@@ -60,17 +60,17 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
-    "console-commands": true
+    "console-commands": false
   },
   "combat": {
     "attack-mobs": true,
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
     "enabled": false,
